@@ -12,7 +12,6 @@ public class MainMenuController : MonoBehaviour
 
     public void OpenAuthor() 
     { 
-        Debug.Log("Created By Kopeyy"); 
+        SceneManager.LoadScene("Credit");
     } 
- 
 }
